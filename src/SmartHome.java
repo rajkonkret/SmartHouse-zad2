@@ -1,7 +1,9 @@
-class SmartHome {
-    private PrinterJob[] printers;
+import java.util.ArrayList;
 
-    public SmartHome(PrinterJob[] printers) {
+class SmartHome {
+    private  ArrayList<PrinterJob> printers;
+
+    public SmartHome(ArrayList<PrinterJob> printers) {
         this.printers = printers;
     }
 
